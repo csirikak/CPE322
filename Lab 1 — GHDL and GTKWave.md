@@ -1,4 +1,4 @@
-## Lab 1 — GHDL and GTKWave.md
+## Lab 1 — GHDL and GTKWave
 
 Windows Binaries of GHDL and GTKWave were downloaded and used for this demonstration.
 Please ensure that when running gtkwave to display the output from ghdl, you match the file path of the vcd files accurately.
