@@ -58,6 +58,7 @@ MyCPU CPU Usage:   1.6 %
 ```
 ### Terminal 2
 ```
+py pubcpu.py
 2023-04-03 11:37:29
 CPU Usage:   1.6 %
 ```
