@@ -1,12 +1,12 @@
-##Lab 2 — Command Line
+## Lab 2 — Command Line
 Run on Debian WSL
-###hostname
+### hostname
 Prints the hostname of the device
 ```
 $ hostname
 Kregler
 ```
-###env
+### env
 Shows the environment variables
 ```
 $ env
@@ -32,7 +32,7 @@ PULSE_SERVER=/mnt/wslg/PulseServer
 _=/usr/bin/env
 OLDPWD=/home/nj/demo
 ```
-###ps
+### ps
 Shows a list of running processes
 ```
 $ ps
@@ -40,13 +40,13 @@ $ ps
     9 pts/0    00:00:00 bash
    40 pts/0    00:00:00 ps
 ```
-###pwd
+### pwd
 Shows the current working directory
 ```
 $ pwd
 /home/nj
 ```
-###git clone
+### git clone
 Clones a github repository onto the local system
 ```
 $ git clone https://github.com/kevinwlu/iot.git
@@ -58,13 +58,13 @@ remote: Total 18743 (delta 814), reused 1282 (delta 720), pack-reused 17286
 Receiving objects: 100% (18743/18743), 27.63 MiB | 10.32 MiB/s, done.
 Resolving deltas: 100% (12545/12545), done.
 ```
-###cd
+### cd
 Changes the working directory, enter alone to return to the home directory
 ```
 $ cd iot
 ~/iot$
 ```
-###ls
+### ls
 Lists files and folders in the current directory
 ```
 $ ls
@@ -93,14 +93,14 @@ none            3.7G   76K  3.7G   1% /mnt/wslg/versions.txt
 none            3.7G   76K  3.7G   1% /mnt/wslg/doc
 drvfs           931G  326G  606G  35% /mnt/c
 ```
-###mkdir
+### mkdir
 Creates a new directory with the given name/path
 ```
 $ mkdir demo
 $ cd demo
 ~/demo$
 ```
-###nano
+### nano
 Opens a file with a given name in a console editor
 ```
 $ nano file
