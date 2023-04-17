@@ -109,5 +109,98 @@ CTRL-X
 Y
 Enter
 ```
+### cat
+Prints the contents of the file to the console
+```
+$ cat file
+I like trains
+```
+### cp
+Copies the content of the first file to the second
+```
+$ cp file file1
+```
+### mv
+Moves the file to a new location/name
+```
+$ mv file file2
+$ ls
+file1 file2
+```
+### rm
+Deletes the specified file
+```
+$ rm file2
+$ ls
+file1
+```
+### clear
+Clears the terminal
+```
+$ clear
+$
+```
+### man
+Shows the manual for a command
+```
+$ man uname
+UNAME(1)                       User Commands                      UNAME(1)
 
+NAME
+       uname - print system information
 
+SYNOPSIS
+       uname [OPTION]...
+
+DESCRIPTION
+       Print certain system information.  With no OPTION, same as -s.
+
+       -a, --all
+              print  all  information, in the following order, except omit
+              -p and -i if unknown:
+
+       -s, --kernel-name
+              print the kernel name
+
+       -n, --nodename
+ Manual page uname(1) line 1 (press h for help or q to quit)
+ ```
+ ### uname
+ Prints system information
+ ```
+ $ uname -a
+ Linux Kregler 5.10.102.1-microsoft-standard-WSL2 #1 SMP Wed Mar 2 00:30:59 UTC 2022 x86_64 GNU/Linux
+ ```
+ ### ifconfig
+ Prints network information
+ ```
+ $ ifconfig
+ eth0      Link encap:Ethernet  HWaddr 09:00:12:90:e3:e5  
+          inet addr:192.168.1.29 Bcast:192.168.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fe70:e3f5/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:54071 errors:1 dropped:0 overruns:0 frame:0
+          TX packets:48515 errors:0 dropped:0 overruns:0
+ ```
+ ### ping
+ Sends ICMP pings to a target host
+ ```
+ $ ping localhost
+ PING localhost (127.0.0.1) 56(84) bytes of data.
+64 bytes from localhost (127.0.0.1): icmp_seq=1 ttl=64 time=0.069 ms
+64 bytes from localhost (127.0.0.1): icmp_seq=2 ttl=64 time=0.055 ms
+64 bytes from localhost (127.0.0.1): icmp_seq=3 ttl=64 time=0.034 ms
+^C
+--- localhost ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2080ms
+rtt min/avg/max/mdev = 0.034/0.052/0.069/0.014 ms
+```
+### netstat
+Shows the list of current connections
+```
+$ netstat
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    10.156.123.2:7680      10.156.87.30:65149     TIME_WAIT
+```
