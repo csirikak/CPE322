@@ -2,15 +2,16 @@
 Eng Design VI
 # List of Labs:
 
-- [GHDL and GTKWave](./'Lab 1 — GHDL and GTKWave')
-- [Command Line](./'Lab 2 — Command Line.md')
-- [Python](./'Lab 3 — Python.md')
-- [Django and Flask](./'Lab 4 — Django and Flask.md')
-- [Paho-MQTT](./'Lab 5 — Paho-MQTT.md')
-- [Node.js and Pystache](./'Lab 6 — Node.js and Pystache.md')
-- [ThingSpeak and Google Sheets](./'Lab 7 — ThingSpeak and Google Sheets.md')
-- [Data Analysis](./'Lab 8 — Data Analysis.md')
-- [YANG](./'Lab 9 — YANG.md')
+- [GHDL and GTKWave](<./Lab 1 — GHDL and GTKWave.md>) Learn how to use these tools to simulate a hardware system
+- [Command Line](<./Lab 2 — Command Line.md>) Learn how to run commands in a Linux environment
+- [Python](<./Lab 3 — Python.md>) Learn how to install packages and run scripts
+- [Django and Flask](<./Lab 4 — Django and Flask.md>) Learn how to use these to deploy a web app with a database
+- [Paho-MQTT](<./Lab 5 — Paho-MQTT.md>) Learn how to use this MQTT framework for IOT
+- [Node.js and Pystache](<./Lab 6 — Node.js and Pystache.md>) Learn how to use Node and the Mustache web template system
+- [ThingSpeak and Google Sheets](<./Lab 7 — ThingSpeak and Google Sheets.md>) Learn how to automate data collection into google sheets with google cloud
+- [Data Analysis](<./Lab 8 — Data Analysis.md>) Learn how to use python to analyze data
+- [YANG](<./Lab 9 — YANG.md>) Learn the bare basics of YANG modules
+- [Blockchain](<./Lab 10 — Blockchain.md>) Learn about blockchain technology and deploy a simple decentralized social app utilizing a blockchain
 
 ```stl
  solid FLIRIS  
