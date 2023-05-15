@@ -1,4 +1,4 @@
-# EE322
+# CPE 322
 Eng Design VI
 ## Course Schedule:
 
